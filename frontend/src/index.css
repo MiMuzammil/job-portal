@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.title {
+  font-size: 42px;
+  margin-bottom: 30px;
+  background: linear-gradient(90deg, #38bdf8, #6366f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(15px);
+  padding: 30px;
+  border-radius: 16px;
+  width: 350px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
+
+input {
+  width: 90%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+}
+
+/* ===== ICON STYLING ===== */
+.sectionTitle {
+  font-size: 22px;
+  margin-top: 20px;
+  opacity: 0.9;
+}
+
+.icon {
+  margin-right: 6px;
+}
+
+.company {
+  color: #60a5fa;
+}
+
+.location {
+  color: #f87171;
+}
+
+.desc {
+  color: #34d399;
+}
+
+/* ===== JOB CARD ===== */
+.jobCard {
+  background: rgba(255, 255, 255, 0.08);
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.jobCard:hover {
+  transform: translateY(-8px) scale(1.02);
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow:
+    0 10px 30px rgba(0, 0, 0, 0.6),
+    0 0 20px rgba(99, 102, 241, 0.3);
+}
+
+/* ===== BUTTONS ===== */
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  background: linear-gradient(90deg, #6366f1, #38bdf8);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* ===== APPLY BUTTON ===== */
+.applyBtn {
+  margin-top: 10px;
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  background: linear-gradient(90deg, #f59e0b, #f97316);
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.applyBtn:hover {
+  transform: scale(1.08);
+  box-shadow:
+    0 0 10px rgba(249, 115, 22, 0.6),
+    0 0 20px rgba(249, 115, 22, 0.4),
+    0 0 30px rgba(249, 115, 22, 0.2);
+}
+
+.applyBtn:active {
+  transform: scale(0.95);
+}
+
